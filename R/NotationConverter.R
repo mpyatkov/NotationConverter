@@ -90,7 +90,7 @@ notationConverter <- function(input_df,
 #' res <- exportToSegex(test.df, from = "mm10")
 #'
 #' # Segex can parse filenames, so to facilitate uploading just give the proper name for output file
-#' # fn <- "1_dataframe_SAMPLEID_Control_vs_SAMPLEID_Treatment_DiffExp_IntronicMonoExonic.tsv"
+#' # fn <- "1_scLoupe_SAMPLEID_Control_vs_SAMPLEID_Treatment_DiffExp_IntronicMonoExonic.tsv"
 #' # write_tsv(res, fn, col_names = T)
 #'
 exportToSegex <- function(input_df, from = "mm9") {
